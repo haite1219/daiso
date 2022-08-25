@@ -1,0 +1,352 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul,ol{
+    list-style: none;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+/* ------------------------------------------------------------------ */
+
+.header{
+    width: 1300px;
+    height: 120px;
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+}
+
+.header h1 img{
+    width: 70px;
+    height: 70px;
+    padding: 30px 0 0 150px;
+}
+
+.header .gnb{
+    display: flex;
+    position: absolute;
+    left: 45%;
+    top: 60%;
+    transform: translate(-50%, -50%);
+    padding-right: 50px;
+}
+
+.header .gnb li{
+    font-size: 16px;
+    font-weight: bold;
+    color: #9b9b9c;
+    padding-left: 50px;
+}
+
+.header .util{
+    display: flex;
+    position: absolute;
+    right: 0;
+    top: 60%;
+    transform: translate(0, -50%);
+}
+
+.header .util li{
+    font-size: 16px;
+    font-weight: bold;
+    color: #9b9b9c;
+    padding-right: 40px;
+    display: flex;
+}
+
+.header .util li a{
+    display: flex;
+    text-align: center;
+}
+
+.header .util li img{
+width: 20px;
+height: 20px;
+}
+
+/* -------------------------------------------------------------------------- */
+
+.banner{
+    width: 1700px;
+    height: 700px;
+
+    margin: 0 auto;
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.banner .back{
+    width: 100px;
+    height: 700px;
+    position: relative;
+}
+
+.banner .back .bico{
+    position: absolute;
+    right: 50%;
+    top: 50%;
+    transform: translate(50%, -50%);
+}
+
+.banner .pic{
+    width: 1500px;
+    height: 700px;
+    background-image: url(../images/banner_cool.jpg);
+}
+
+.banner .pic a{
+    display: block;
+    width: 100%;
+    height: 100%; 
+}
+
+.banner .next{
+    width: 100px;
+    height: 700px;
+    position: relative;
+}
+
+.banner .next .nico{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* ------------------------------------------------------------------------------- */
+
+.con1{
+    display: flex;
+    margin: 0 auto;
+    width: 1200px;
+    height: 300px;
+    margin-bottom: 30px;
+}
+
+.con1 .store{
+    width: 610px;
+    height: 300px;
+    text-align: center;
+    margin: 0 auto;
+    background-color: #ededed;
+}
+
+.con1 .store h2{
+    font-size: 30px;
+    padding-top: 30px;
+}
+
+.con1 .store p{
+    color: #9b9b9c;
+    padding: 10px 0 20px 0;
+}
+
+.con1 .store form{
+    width: 500px;
+    margin: 0 auto;
+}
+
+.con1 .store form input{
+    display: block;
+    font-size: 20px;
+    border: 1px solid #ccc;
+    height: 40px;
+    width: 100%;
+    margin-bottom: 30px;;
+    text-align: center;
+}
+
+.con1 .store button{
+    display: block;
+    margin: 0 auto;
+    width: 250px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #e30613;
+    border: red;
+    color: white;
+    font-size: 20px;
+}
+/* ------------------------------------------------------------------------------- */
+.con2{
+    width: 1300px;
+    height: 615px;
+    display: flex;
+    margin: 60px auto;
+}
+
+.con2 .tit{
+    width: 350px;
+    height: 615px;
+    margin-right: 20px;
+}
+
+.con2 .tit h2{
+    font-size: 70px;
+    padding: 180px 0 0 20px;
+}
+
+.con2 .sns{
+    margin-left: 10px;
+}
+
+.con2 .sns a{
+    margin-left: 10px;
+}
+
+.con2 .box{
+    margin: 0 15px 0 0;
+}
+
+.con2 .box .pic1{
+    width: 300px;
+    height: 300px;
+    margin-bottom: 15px;
+    background-color: blue;
+}
+
+.con2 .box .pic2{
+    width: 300px;
+    height: 300px;
+    background-color: darkgreen;
+}
+
+/* ------------------------------------------------------------------ */
+
+.con3{
+    padding-top: 40px;
+    background-color: #ededed;
+}
+
+.con3 .ntit{
+    width: 1300px;
+    height: 50px;
+    margin: 0 auto 30px;
+    text-align: center;
+}
+
+.con3 .ntit h2{
+    font-size: 40px;
+}
+
+.con3 .news{
+    display: flex;
+    margin: 0 auto;
+    width: 1000px;
+    height: 400px;
+}
+
+.con3 .news .news1{
+    width: 225px;
+    height: 400px;
+    background-color: white;
+    margin-right: 25px;
+}
+
+.con3 .news .news1 .pic{
+    background-image: url(../images/news_1.jpg);
+    background-size: 225px 225px;
+}
+
+.con3 .news .news2{
+    width: 225px;
+    height: 400px;
+    background-color: white;
+    margin-right: 25px;
+}
+
+.con3 .news .news2 .pic{
+    background-image: url(../images/news_2.jpg);
+    background-size: 225px 225px;
+}
+
+.con3 .news .news3{
+    width: 225px;
+    height: 400px;
+    background-color: white;
+    margin-right: 25px;
+}
+
+.con3 .news .news3 .pic{
+    background-image: url(../images/news_3.jpg);
+    background-size: 225px 225px;
+}
+
+.con3 .news .news4{
+    width: 225px;
+    height: 400px;
+    background-color: white;
+    margin-right: 25px;
+}
+
+.con3 .news .news4 .pic{
+    background-image: url(../images/news_4.jpg);
+    background-size: 225px 225px;
+}
+
+.con3 .news .pic{
+    width: 225px;
+    height: 225px;
+}
+
+.con3 h3{
+    font-size: 15px;
+    padding: 20px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.con3 p{
+    font-size: 12px;
+    padding: 20px;
+}
+
+.con3 .you{
+    display: flex;
+    margin: 0 auto;
+    padding: 40px 0 50px 0;
+    width: 1200px;
+    height: 350px;
+}
+
+.con3 .you .you1{
+    margin-right: 30px;
+}
+
+/* ------------------------------------------------------------ */
+.footer{
+    height: 200px;
+}
+
+.footer .foot{
+    width: 1300px;
+    height: 200px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.footer .foot img{
+    padding: 70px;
+}
+
+.footer .foot .fo{
+    padding-top: 30px;
+}
+
+.footer .foot .fo .util{
+    display: flex;
+    padding: 0 0 20px 0;
+}
+
+.footer .foot .fo .util li{
+    margin-right: 50px;
+}
+
+.footer .foot .fo .soc{
+    color: #9b9b9c;
+}
